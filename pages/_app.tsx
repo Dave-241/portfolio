@@ -21,3 +21,7 @@ function MyApp({ Component, pageProps }: any) {
 }
 
 export default MyApp;
+
+
+
+    // "typescript": "4.0"
