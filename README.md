@@ -1,3 +1,3 @@
-# Adeola Adeoti
+# Isibor Davis
 
-Second version of my portfolio
+Myself described in different lines of codes 😊
