@@ -2,7 +2,7 @@
   "name": "adeolaadeoti",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next",
+    "dev": "--openssl-legacy-provider next",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc"
