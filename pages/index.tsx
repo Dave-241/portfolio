@@ -518,7 +518,7 @@ const index: React.FC<indexProps> = ({}) => {
           >
             <div className="section-reviews__top">
               <h1 className="heading-1">
-                <span>Mmmm, a little brag </span> <small>😊</small>
+                <span>Embrace the Buzz! </span> <small>😊</small>
               </h1>
               <p className="paragraph paragraph__sub">
                 Here's the buzz surrounding my latest portfolio
@@ -623,7 +623,7 @@ const index: React.FC<indexProps> = ({}) => {
             className="footer__socials"
             style={{ width: "auto", color: "aliceblue" }}
           >
-            One line of code at a time.
+            #CodingJourney #DigitalRealmInMyCode #MyPassion
           </div>
         </footer>
       </div>
