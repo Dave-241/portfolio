@@ -320,16 +320,14 @@ const index: React.FC<indexProps> = ({}) => {
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">
-                  NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
-                </h4>
+                <h4 className="heading-4">REACT JS , FRAMER MOTION</h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/alexxandria-1.webp" alt="alexxandria model" />
-                <img src="webp/alexxandria-2.webp" alt="alexxandria logo" />
+                <img src="webp/alexxandria-1.jpg" alt="alexxandria model" />
+                <img src="webp/alexxandria-2.png" alt="alexxandria logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -339,25 +337,21 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="alexxandria-anim"
                   className="heading-2"
                 >
-                  Alexxandria
-                  <br /> Forque
+                  Davrica
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://alexxandria.vercel.app/"
+                  href="https://davrica.netlify.app/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
                 </a>
                 <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/alexxandria"
+                    href="https://github.com/Dave-241/davrica"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
