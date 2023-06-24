@@ -12,7 +12,7 @@ const result: Ireply[] = [
     id: 0,
     name: "Name cannot be blank",
     userName: "@hackSultan",
-    reply: "This is great stuff right here..",
+    reply: "This right here is absolute awesomeness!",
   },
   {
     id: 1,
@@ -29,8 +29,8 @@ const result: Ireply[] = [
   {
     id: 3,
     name: "Ruks 🦍",
-    userName: "@ruks_ahwin",
-    reply: "Really impressive man 👏",
+    userName: "@ruks_ahwein",
+    reply: "You've truly left me impressed, my friend! 👏",
   },
   {
     id: 4,
@@ -66,7 +66,7 @@ const result: Ireply[] = [
     id: 9,
     name: "Big Sheddy 🦅",
     userName: "@coder_blvck",
-    reply: "This is really cool!",
+    reply: "Your site is absolutely mind-blowing!",
   },
   {
     id: 10,

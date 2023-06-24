@@ -124,7 +124,7 @@ const index: React.FC<indexProps> = ({}) => {
     <>
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
-          <link rel="icon" href="svg/favicon.svg" />
+          <link rel="icon" href="svg/favicon.png" />
           <link href="https://isibordavis.netlify.app/" rel="canonical" />
           <meta name="theme-color" content="#10101A" />
           <meta
@@ -145,19 +145,19 @@ const index: React.FC<indexProps> = ({}) => {
           <meta property="og:image" content="webp/preview-image.png" />
           <meta
             property="og:description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="I am a self-taught Front End Developer , and I enjoy transforming ideas into real products."
           />
           <meta
             name="twitter:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="Isibor Davis 🧩 &mdash; Frontend Devloper"
           />
           <meta
             name="twitter:description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="I am a self-taught Front End Developer , and I enjoy transforming ideas into real products."
           />
           <meta name="twitter:image" content="webp/preview-image.png" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content="https://adeolaadeoti.xyz/" />
+          <meta name="twitter:url" content="https://isibordavis.netlify.app/" />
         </Head>
         <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
           <source src="sound/preloader.mp3" type="audio/mp3" />
@@ -175,20 +175,20 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/adeola-logo-left.svg" alt="adeola logo" />
+              <img src="svg/davis-logo-left.png" alt="davis logo" />
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
-              <p className="preloader__text">HTML</p>
+              <p className="preloader__text">HTML5</p>
               <p className="preloader__text">CSS/SCSS</p>
               <p className="preloader__text">JAVASCRIPT</p>
               <p className="preloader__text">TYPESCRIPT</p>
               <p className="preloader__text">REACT JS</p>
               <p className="preloader__text">NEXT JS</p>
-              <p className="preloader__text">FRAMER MOTION</p>
+              <p className="preloader__text">GITHUB</p>
             </motion.div>
           </div>
         </motion.div>
@@ -201,13 +201,13 @@ const index: React.FC<indexProps> = ({}) => {
           <header className="header">
             <div className="header__hero">
               <div className="header__hero--heading">
-                <span>turning ideas into </span> <br />
-                <span>real life </span>
+                <span>Transforming ideas into </span> <br />
+                <span>tangible </span>
                 <span className="header__hero--heading-gradient">
                   products{" "}
                 </span>
                 <br />
-                <span>is my calling.</span>
+                <span>that exist in the real world.</span>
               </div>
               <a
                 data-scroll-to
@@ -280,49 +280,42 @@ const index: React.FC<indexProps> = ({}) => {
             </div>
             <div className="header__footer--right">
               <a
-                href="https://github.com/adeolaadeoti"
+                href="https://github.com/Dave-241/"
                 rel="noopener"
                 target="_blank"
               >
                 👾 GH
               </a>
               <a
-                href="https://twitter.com/adeolajs"
+                href="https://twitter.com/kosekwu123?t=1HaGhdnONmbSSTcVPRgnHg&s=09"
                 rel="noopener"
                 target="_blank"
               >
                 🐦 TW
               </a>
               <a
-                href="https://www.linkedin.com/in/adeoladev"
+                href="https://ng.linkedin.com/in/davis-isibor-05974b1bb"
                 rel="noopener"
                 target="_blank"
               >
                 💼 LD
-              </a>
-              <a
-                href="https://www.instagram.com/adeolaadeoti_"
-                rel="noopener"
-                target="_blank"
-              >
-                {" "}
-                📸 IN
               </a>
             </div>
           </div>
         </div>
         <main className="container">
           <p className="about-text">
-            Hello stranger! 👋, my name is adeola and I am a frontend engineer,
-            passionate <br /> about digital products that help people experience
-            everyday life, not endure it.
+            Greetings there! 👋, My name is Davis Isibor, a frontend engineer
+            driven <br /> by the goal of creating digital products that enhance
+            people's everyday lives, rather than merely enduring them.
           </p>
           <section id="sectionProjects" className="section-projects">
             <h1 className="heading-1">
               <span>Yeah, I work hard </span> <small>💼</small>
             </h1>
             <p className="paragraph">
-              Each project is unique. Here are some of my works.
+              No two projects are alike. Allow me to showcase a selection of my
+              previous works
             </p>
 
             <div className="project-card">
@@ -475,8 +468,8 @@ const index: React.FC<indexProps> = ({}) => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/adeola-1.webp" alt="adeola model" />
-                <img src="webp/adeola-2.webp" alt="adeola logo" />
+                <img src="webp/adeola-1.webp" alt="davis model" />
+                <img src="webp/adeola-2.webp" alt="davis logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -528,7 +521,7 @@ const index: React.FC<indexProps> = ({}) => {
                 <span>Mmmm, a little brag </span> <small>😊</small>
               </h1>
               <p className="paragraph paragraph__sub">
-                What people are saying about my last portfolio
+                Here's the buzz surrounding my latest portfolio
               </p>
             </div>
             <div className="section-reviews__bottom">
@@ -572,16 +565,17 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
           <section className="section-contact">
             <h1 className="heading-1">
-              <span>Sold Yet? </span> <small>🤙</small>
+              <span>Ready for a Remarkable Collaboration? </span>{" "}
+              <small>🤙</small>
             </h1>
             <h2 className="section-contact__h2">
-              Thanks for stopping by, I’m currently looking to join a new team
-              of creative designers and developers. If you think we might be a
-              good fit for one another, give me a
-              <a href="tel:+2349066383763"> call 🇳🇬 &nbsp;</a>
+              I appreciate your visit! Currently, I am actively seeking to join
+              a team of skilled designers and developers. If you believe there
+              is potential for a great fit between us, give me a
+              <a href="tel:+2348153363712"> call 🇳🇬 &nbsp;</a>
               or send me an
               <a
-                href="mailto:adeolaonigegeara@gmail.com"
+                href="mailto:davisisibor@gmail.com"
                 rel="noopener"
                 target="_blank"
               >
@@ -597,56 +591,39 @@ const index: React.FC<indexProps> = ({}) => {
             <p className="paragraph">Connect with me online</p>
             <div className="section-socials--links">
               <a
-                href="https://github.com/adeolaadeoti"
+                href="https://github.com/Dave-241/"
                 rel="noopener"
                 target="_blank"
               >
                 👾 GitHub
               </a>
               <a
-                href="https://twitter.com/adeolajs"
+                href="https://twitter.com/kosekwu123?t=1HaGhdnONmbSSTcVPRgnHg&s=09"
                 rel="noopener"
                 target="_blank"
               >
                 🐦 Twitter
               </a>
               <a
-                href="https://www.linkedin.com/in/adeoladev"
+                href="https://ng.linkedin.com/in/davis-isibor-05974b1bb"
                 rel="noopener"
                 target="_blank"
               >
                 💼 LinkedIn
-              </a>
-              <a
-                href="https://www.instagram.com/adeolaadeoti_"
-                rel="noopener"
-                target="_blank"
-              >
-                📸 Instagram
               </a>
             </div>
           </section>
         </main>
         <footer className="footer">
           <img
-            src="svg/adeola-logo-footer.svg"
-            alt="design and devloped by adeola"
+            src="svg/davis-logo-left.png"
+            alt="design and devloped by davis"
           />
-          <div className="footer__socials">
-            <a
-              href="https://dribbble.com/shots/16100745-Adeola-Adeoti-Personal-Website"
-              target="_blank"
-              rel="noopener"
-            >
-              <img src="svg/dribble.svg" alt="dribble logo" />
-            </a>
-            <a
-              href="https://github.com/adeolaadeoti/adeolaadeoti-v2"
-              target="_blank"
-              rel="noopener"
-            >
-              <img src="svg/github.svg" alt="github logo" />
-            </a>
+          <div
+            className="footer__socials"
+            style={{ width: "auto", color: "aliceblue" }}
+          >
+            One line of code at a time.
           </div>
         </footer>
       </div>

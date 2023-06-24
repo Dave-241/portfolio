@@ -42,13 +42,14 @@ export const Navigation = ({ isOpen, toggleOpen }: any) => {
           <div className="brand-logo">
             <img
               className="brand-logo__icon"
-              src="svg/adeola-logo-left.svg"
-              alt="adeola logo icon"
+              src="svg/davis-logo-left.png"
+              style={{ height: "auto", width: "30px" }}
+              alt="Davis logo icon"
             />
             <span className="brand-logo__text-wrapper">
               <img
                 className="brand-logo__text"
-                src="svg/adeola-logo-right.svg"
+                src="svg/davis-logo-right.png"
                 alt="adeola logo text"
               />
             </span>
