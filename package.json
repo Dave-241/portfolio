@@ -2,7 +2,7 @@
   "name": "adeolaadeoti",
   "version": "1.0.0",
   "scripts": {
-    "dev": " NODE_OPTIONS='--openssl-legacy-provider'  next  ",
+    "dev": "    next  ",
     "build": "NODE_OPTIONS='--openssl-legacy-provider' next build",
     "start": "next start",
     "type-check": "tsc"

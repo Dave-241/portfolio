@@ -25,7 +25,10 @@ const transition: { duration: number; ease: number[] } = {
   ease: [0.6, 0.01, -0.05, 0.9],
 };
 
-const fetcher = (url: any) => fetch(url).then((res) => res.json());
+const fetcher = (url: any) =>
+  fetch(url)
+    .then((res) => res.json())
+    .catch((err) => err);
 
 const index: React.FC<indexProps> = ({}) => {
   const [speakerState, setSpeakerState] = useState("muted");
@@ -74,7 +77,7 @@ const index: React.FC<indexProps> = ({}) => {
           image2: imgs[1].getAttribute("src"),
           displacementImage: el.dataset.displacement,
         });
-      }
+      },
     );
 
     // header cursor
@@ -85,7 +88,7 @@ const index: React.FC<indexProps> = ({}) => {
 
     console.clear();
     console.log.apply(console, [
-      "%c Designed and Developed by Adeola Adeoti %c %c🚀 %c\n",
+      "%c Designed and Developed by Isibor Davis %c %c🚀 %c\n",
       "color: #fff; background: #8000ff; padding:5px 0;",
       "color: #fff; background: #242424; padding:5px 0 5px 5px;",
       "background: #242424; padding:5px 0",
@@ -122,23 +125,23 @@ const index: React.FC<indexProps> = ({}) => {
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
           <link rel="icon" href="svg/favicon.svg" />
-          <link href="https://adeolaadeoti.xyz/" rel="canonical" />
+          <link href="https://isibordavis.netlify.app/" rel="canonical" />
           <meta name="theme-color" content="#10101A" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
             content="#10101A"
           />
-          <title>Adeola Adeoti 🚀 &mdash; Frontend Devloper</title>
+          <title>Isibor Davis 🧩 &mdash; Frontend Devloper</title>
           <meta
             name="description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="I am a self-taught Front End Developer , and I enjoy transforming ideas into real products."
           />
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="Isibor Davis 🧩 &mdash; Frontend Devloper"
           />
-          <meta property="og:url" content="https://adeolaadeoti.xyz/" />
+          <meta property="og:url" content="https://isibordavis.netlify.app/" />
           <meta property="og:image" content="webp/preview-image.png" />
           <meta
             property="og:description"
