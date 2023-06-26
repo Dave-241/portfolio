@@ -615,7 +615,7 @@ const index: React.FC<indexProps> = ({}) => {
           />
           <div
             className="footer__socials"
-            style={{ width: "auto", color: "aliceblue" }}
+            style={{ width: "auto", color: "aliceblue", padding: "0px 10px" }}
           >
             #CodingJourney #DigitalRealmInMyCode #MyPassion
           </div>
