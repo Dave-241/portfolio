@@ -451,14 +451,14 @@ const index: React.FC<indexProps> = ({}) => {
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">HTML, SCSS, JAVASCRIPT, GSAP</h4>
+                <h4 className="heading-4">NEXT JS, TAILWIND , JAVASCRIPT</h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/adeola-1.webp" alt="davis model" />
-                <img src="webp/adeola-2.webp" alt="davis logo" />
+                <img src="webp/apple1.png" alt="davis model" />
+                <img src="webp/apple2.png" alt="davis logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -468,29 +468,22 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="adeola-anim"
                   className="heading-2"
                 >
-                  AdeolaAdeoti
-                  <br /> version 1
+                  Apple-Clone
+                  <br /> Emulation
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio"
+                  href="https://apple-repo.vercel.app/"
                   className="project-card__link"
                 >
-                  VIEW SOURCE CODE
+                  VIEW THIS WEBSITE
                 </a>
                 <div className="project-card__socials">
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://dribbble.com/shots/12338926-Adeola-Adeoti-Portfolio"
-                  >
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio"
+                    href="https://github.com/Dave-241/apple_repo"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
