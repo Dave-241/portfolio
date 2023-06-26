@@ -367,8 +367,8 @@ const index: React.FC<indexProps> = ({}) => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/safarika-1.webp" alt="safarika" />
-                <img src="webp/safarika-2.webp" alt="safarika logo" />
+                <img src="webp/shop2.png" alt="safarika" />
+                <img src="webp/shop1.png" alt="safarika logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -378,12 +378,12 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="safarika-anim"
                   className="heading-2"
                 >
-                  Safarika
+                  Shoprrr
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://safarika-adeola.netlify.app/"
+                  href="https://shoprr.netlify.app/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
@@ -392,14 +392,7 @@ const index: React.FC<indexProps> = ({}) => {
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://dribbble.com/shots/12361426-Safarika-Adventure"
-                  >
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/safarika"
+                    href="https://github.com/Dave-241/shoprrr"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -410,7 +403,7 @@ const index: React.FC<indexProps> = ({}) => {
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
+                  NEXT JS, FIREBASE , REDUX , JAVASCRIPT
                 </h4>
               </div>
               <div
