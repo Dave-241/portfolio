@@ -405,7 +405,7 @@ const index: React.FC<indexProps> = ({}) => {
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, FIREBASE , REDUX , JAVASCRIPT
+                  NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
                 </h4>
               </div>
               <div
@@ -427,7 +427,7 @@ const index: React.FC<indexProps> = ({}) => {
                   <br /> Estate
                 </h2>
                 <a
-                  href="https://heatrow.vercel.app/"
+                  href="https://heatrow.netlify.app/"
                   rel="noopener"
                   target="_blank"
                   className="project-card__link"
@@ -435,13 +435,10 @@ const index: React.FC<indexProps> = ({}) => {
                   VISIT THE WEBSITE
                 </a>
                 <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/heatrow"
+                    href="https://github.com/Dave-241/heatrow "
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
