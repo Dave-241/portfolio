@@ -361,7 +361,9 @@ const index: React.FC<indexProps> = ({}) => {
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">REACT JS, FRAMER MOTION</h4>
+                <h4 className="heading-4">
+                  NEXT JS, FIREBASE , REDUX , JAVASCRIPT
+                </h4>
               </div>
               <div
                 className="project-card__middle"
