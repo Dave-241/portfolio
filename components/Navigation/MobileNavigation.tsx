@@ -65,7 +65,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
               🐦 TW
             </a>
             <a
-              href="https://ng.linkedin.com/in/davis-isibor-05974b1bb"
+              href="https://www.linkedin.com/in/kosekwu"
               rel="noopener"
               target="_blank"
             >
