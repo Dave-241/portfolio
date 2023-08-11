@@ -342,7 +342,7 @@ const index: React.FC<indexProps> = ({}) => {
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://davrica.vercel.app/"
+                  href="https://davrica.vercel.app/ "
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
