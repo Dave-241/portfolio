@@ -125,7 +125,7 @@ const index: React.FC<indexProps> = ({}) => {
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
           <link rel="icon" href="svg/favicon.png" />
-          <link href="https://isibordavis.netlify.app/" rel="canonical" />
+          <link href="https://davisisibor.vercel.app/" rel="canonical" />
           <meta name="theme-color" content="#10101A" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
@@ -141,7 +141,7 @@ const index: React.FC<indexProps> = ({}) => {
             property="og:title"
             content="Isibor Davis 🧩 &mdash; Frontend Devloper"
           />
-          <meta property="og:url" content="https://isibordavis.netlify.app/" />
+          <meta property="og:url" content="https://davisisibor.vercel.app/" />
           <meta property="og:image" content="webp/preview-image.png" />
           <meta
             property="og:description"
@@ -157,7 +157,7 @@ const index: React.FC<indexProps> = ({}) => {
           />
           <meta name="twitter:image" content="webp/preview-image.png" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content="https://isibordavis.netlify.app/" />
+          <meta name="twitter:url" content="https://davisisibor.vercel.app/" />
         </Head>
         <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
           <source src="sound/preloader.mp3" type="audio/mp3" />
@@ -385,7 +385,7 @@ const index: React.FC<indexProps> = ({}) => {
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://shoprr.netlify.app/"
+                  href="https://shoprrr-five.vercel.app/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
@@ -427,7 +427,7 @@ const index: React.FC<indexProps> = ({}) => {
                   <br /> Estate
                 </h2>
                 <a
-                  href="https://heatrow.netlify.app/"
+                  href="https://heatrow-one.vercel.app/"
                   rel="noopener"
                   target="_blank"
                   className="project-card__link"
