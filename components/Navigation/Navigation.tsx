@@ -42,8 +42,8 @@ export const Navigation = ({ isOpen, toggleOpen }: any) => {
           <div className="brand-logo">
             <img
               className="brand-logo__icon"
-              src="svg/davis-logo-left.png"
-              style={{ height: "auto", width: "30px" }}
+              src="webp/new/logo.png"
+              style={{ height: "auto", width: "50px" }}
               alt="Davis logo icon"
             />
             <span className="brand-logo__text-wrapper">

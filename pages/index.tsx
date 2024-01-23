@@ -175,18 +175,18 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/davis-logo-left.png" alt="davis logo" />
+              <img src="webp/new/logo.png" alt="davis logo" />
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
-              <p className="preloader__text">HTML5</p>
+              <p className="preloader__text">REACT JS</p>
               <p className="preloader__text">CSS/SCSS</p>
               <p className="preloader__text">JAVASCRIPT</p>
               <p className="preloader__text">TYPESCRIPT</p>
-              <p className="preloader__text">REACT JS</p>
+              <p className="preloader__text">FIREBASE</p>
               <p className="preloader__text">NEXT JS</p>
               <p className="preloader__text">GITHUB</p>
             </motion.div>
@@ -320,14 +320,19 @@ const index: React.FC<indexProps> = ({}) => {
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">REACT JS , FRAMER MOTION</h4>
+                <h4 className="heading-4">
+                  NEXTJS JS , TAILWIND CSS, CALENDY, FRAMER MOTION
+                </h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/alexxandria-1.jpg" alt="alexxandria model" />
-                <img src="webp/alexxandria-2.png" alt="alexxandria logo" />
+                <img
+                  src="webp/new/malkain_health.webp"
+                  alt="alexxandria model"
+                />
+                <img src="webp/new/malkain_logo.png " alt="alexxandria logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -337,12 +342,12 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="alexxandria-anim"
                   className="heading-2"
                 >
-                  Davrica
+                  Mal <sup>+</sup> Health
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://davrica.vercel.app/ "
+                  href="https://malkain-health.vercel.app/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
@@ -351,7 +356,7 @@ const index: React.FC<indexProps> = ({}) => {
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/Dave-241/davrica"
+                    href="https://github.com/Dave-241"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -362,15 +367,15 @@ const index: React.FC<indexProps> = ({}) => {
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, FIREBASE , REDUX , JAVASCRIPT
+                  NEXT JS , STRIPE , API, JAVASCRIPT
                 </h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/shop2.png" alt="safarika" />
-                <img src="webp/shop1.png" alt="safarika logo" />
+                <img src="webp/new/attella_portfolio.webp" alt="safarika" />
+                <img src="webp/new/attella_logo.png" alt="safarika logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -380,12 +385,12 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="safarika-anim"
                   className="heading-2"
                 >
-                  Shoprrr
+                  Attella
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://shoprrr-five.vercel.app/"
+                  href="https://attella-studios.vercel.app/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
@@ -394,7 +399,7 @@ const index: React.FC<indexProps> = ({}) => {
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/Dave-241/shoprrr"
+                    href="https://github.com/Dave-241/"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -448,14 +453,16 @@ const index: React.FC<indexProps> = ({}) => {
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">NEXT JS, TAILWIND , JAVASCRIPT</h4>
+                <h4 className="heading-4">
+                  NEXT JS, TAILWIND , FIREBASE , STRIPE{" "}
+                </h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/apple1.png" alt="davis model" />
-                <img src="webp/apple2.png" alt="davis logo" />
+                <img src="webp/new/station_forge.png" alt="davis model" />
+                <img src="webp/new/station_forge_logo.png" alt="davis logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -465,13 +472,12 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="adeola-anim"
                   className="heading-2"
                 >
-                  Apple-Clone
-                  <br /> Emulation
+                  Station - Forge
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://apple-repo.vercel.app/"
+                  href="https://stationforge-updated-222.vercel.app/"
                   className="project-card__link"
                 >
                   VIEW THIS WEBSITE
@@ -480,7 +486,7 @@ const index: React.FC<indexProps> = ({}) => {
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/Dave-241/apple_repo"
+                    href="https://github.com/Dave-241/"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -594,10 +600,7 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
         </main>
         <footer className="footer">
-          <img
-            src="svg/davis-logo-left.png"
-            alt="design and devloped by davis"
-          />
+          <img src="webp/new/logo.png" alt="design and devloped by davis" />
           <div
             className="footer__socials"
             style={{ width: "auto", color: "aliceblue", padding: "0px 10px" }}

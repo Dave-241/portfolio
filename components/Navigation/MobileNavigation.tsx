@@ -98,35 +98,33 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
           <a
             target="_blank"
             rel="noopener"
-            href="https://davrica.netlify.app/"
+            href="https://stationforge-updated-222.vercel.app/"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/alexxandria-1.jpg" alt="alexxandria" />
+            <img src="webp/new/station_forge.png" alt="alexxandria" />
             <h2>
-              Davrica
+              Station - Forge
               <br />
             </h2>
           </a>
           <a
-            href="https://safarika-adeola.netlify.app/"
+            href="https://attella-studios.vercel.app/"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/shop2.png" alt="safarika" />
-            <h2>Shoprrr</h2>
+            <img src="webp/new/attella_portfolio.webp" alt="safarika" />
+            <h2>Attella</h2>
           </a>
           <a
-            href="https://apple-repo.vercel.app/"
+            href="https://malkain-health.vercel.app/"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/apple1.png" alt="adeola" />
+            <img src="webp/new/malkain_health.webp" alt="adeola" />
             <h2>
-              Apple-Clone
-              <br />
-              Emulation
+              Malkain<sup>+</sup> <br /> Health
             </h2>
           </a>
         </div>
