@@ -347,7 +347,7 @@ const index: React.FC<indexProps> = ({}) => {
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://malkain-health.vercel.app/"
+                  href="https://www.malkainhealth.com/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
@@ -390,7 +390,7 @@ const index: React.FC<indexProps> = ({}) => {
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://attella-studios.vercel.app/"
+                  href="https://atellastudios.com/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
